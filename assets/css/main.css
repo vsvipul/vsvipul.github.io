@@ -664,7 +664,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-brand {
     position: absolute;
     padding: 0px 15px;
-    top: 0;
+    top: 16px;
+  }
+  .top-nav-collapse .navbar-brand {
+    top: 16px;
   }
   .navbar-brand img {
     width: 75%;
